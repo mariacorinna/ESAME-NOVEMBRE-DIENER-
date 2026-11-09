@@ -12,11 +12,11 @@ Authors@R: c(
 Description: Reads the count matrix from input_file, with genes on rows and cells on columns
     Computes, for each cell, the total number of counts across all genes (the library size)
     Orders the cells by decreasing library size and keeps only the first n cells. The gene rows and their
-order must remain unchanged.
+    order must remain unchanged.
     Saves the filtered matrix to output_file as CSV, preserving the gene identifiers and the column
-names of the retained cells.
+    names of the retained cells.
     Returns a named list with n_cells_kept and the dimensions of the filtered matrix as n_genes and
-n_cells.
+    n_cells.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
